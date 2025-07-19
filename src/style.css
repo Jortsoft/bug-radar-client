@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #111929;
+  color: white;
+  font-family: 'BPG Square Banner Caps 2013'
+}
+
+.container {
+  padding-right: 50px;
+  padding-left: 50px;
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@font-face {
+  font-family: 'BPG Square Banner Caps 2013';
+  src: url('/assets/fonts/BPGSquareBannerCaps2013.eot');
+  src: url('/assets/fonts/BPGSquareBannerCaps2013.eot?#iefix') format('embedded-opentype'),
+    url('/assets/fonts/BPGSquareBannerCaps2013.woff2') format('woff2'),
+    url('/assets/fonts/BPGSquareBannerCaps2013.woff') format('woff'),
+    url('/assets/fonts/BPGSquareBannerCaps2013.ttf') format('truetype'),
+    url('/assets/fonts/BPGSquareBannerCaps2013.svg#BPGSquareBannerCaps2013') format('svg');
+  font-display: swap;
+}
